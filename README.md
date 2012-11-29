@@ -18,7 +18,7 @@ gem 'string2hex'
 ### Usage
 
 ```ruby
-a = "foobar".string2hex # => "666f6f626172"
+"foobar".string2hex # => "666f6f626172"
 
-a.hex2string # => "foobar"
+"666f6f626172".hex2string # => "foobar"
 ```
